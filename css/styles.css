@@ -4,9 +4,8 @@
 }
 
 body {
-    background-image: url(../image/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(157,231,15);
+    background: linear-gradient(90deg, rgba(157,231,15,1) 24%, rgba(98,219,60,1) 63%);
 }
 
 .container {
