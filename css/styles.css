@@ -4,20 +4,122 @@
 }
 
 body {
+    /* background-image: url(../image/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
     background: rgb(212,239,240);
 background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 23%, rgba(42,233,15,1) 57%, rgba(26,158,208,1) 100%);
+    overflow: hidden;
 }
 
-.container {
+.container, .referencias, #maps{
+    padding: 30px 10px 10px;
+    width: 960px;
+    height: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.raiz{
+    background: url(../image/raiz.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 30rem;
+    width: 960px;
+    height: 240px;
+    font-size: 20px;
+}
+.tallo{
+    background: url(../image/tallo.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 30rem;
+    width: 960px;
+    height: 240px;
+    font-size: 20px;
+}
+.hojas{
+    background: url(../image/hoja.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 30rem;
+    width: 960px;
+    height: 240px;
+    font-size: 20px;
+}
+.flor{
+    background: url(../image/flor.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 30rem;
+    width: 960px;
+    height: 240px;
+    font-size: 20px;
+}
+.fruto{
+    background: url(../image/fruto.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 30rem;
+    width: 960px;
+    height: 240px;
+    font-size: 20px;
+}
+.cuadro{
+    padding: 50px 10px 10px;
+    width: 960px;
+    height: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.espacio{
+    width: 960px;
+    height: 100px;
+}
+.generalidades, .descripcion, .imagenes {
+    padding: 50px 10px 10px;
     width: 960px;
     margin-right: auto;
     margin-left: auto;
 }
-
+.images_cont{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+.img1{
+    background: url(../image/image1.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+.img2{
+    background: url(../image/image2.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+.img3{
+    background: url(../image/image3.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+.img4{
+    background: url(../image/image4.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+.img5{
+    background: url(../image/image5.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+.img6{
+    background: url(../image/image6.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+.img7{
+    background: url(../image/image7.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+.img8{
+    background: url(../image/image8.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
 .col-1 {
     width: 100%;
     height: 100%;
     padding: 10px;
+}
+.col-2{
+    background: url(../image/image1.png) no-repeat center left /400px;
+    padding: 0.4rem 1.5rem 1.5rem 30rem;
+    width: 960px;
+    height: 400px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .cont_image {
@@ -25,14 +127,20 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
     width: 400px;
     height: 400px;
     display: inline-block;
+} 
+
+.txt_title{
+    text-align: right;
+    background: url(../image/Euphorbia_Graminea.png) no-repeat center left /400px;
+    padding: 0.4rem 1.5rem 0.4rem 0.4rem;
+    width: 100%;
+    height: 400px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .indice {
     display: inline-block;
-}
-
-.descripcion {
-    width: 100%;
 }
 
 .image {
@@ -51,8 +159,16 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
     text-align: center;
     font-size: 20px;
 }
+.title-2{
+    color: red;
+}
 
-.informacion, .yasuni, .caracteristicas, .biologia, .referencias {
+.title-3{
+    color: yellow;
+}
+
+.informacion, .yasuni, .caracteristicas, .biologia{
+    padding: 50px;
     width: 960px;
     margin-right: auto;
     margin-left: auto;
@@ -64,10 +180,6 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
     color: brown;
 }
 
-a:hover {
-    color: white;
-}
-
 .ilustracion {
     width: 400px;
     height: 400px;
@@ -76,6 +188,8 @@ a:hover {
 }
 
 .ilust_contain {
+    width: 400px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,4 +209,7 @@ a:hover {
     color: rgb(240, 21, 13);
     font-size: 14px;
     font-weight: bold;
+}
+a:hover{
+    color: azure;
 }
