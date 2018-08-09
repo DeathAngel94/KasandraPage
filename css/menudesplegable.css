@@ -23,8 +23,8 @@ ul {
     float:left;
 }
 
-.nav li a {
-    background-color:#000;
+.nav li {
+    background-color: rgba(0,0,0,0.9);
     color:#fff;
     text-decoration:none;
     padding:10px 12px;
