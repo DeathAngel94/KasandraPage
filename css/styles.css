@@ -12,10 +12,16 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
     overflow: hidden;
 }
 
-.container, .referencias, #maps{
+.container {
+    padding: 1em;
+    position: relative;
+    z-index: 10;
+    }
+
+.referencias, #maps{
     padding: 30px 10px 10px;
     width: 960px;
-    height: 960px;
+    position: absolute;
     margin-right: auto;
     margin-left: auto;
 }
@@ -57,7 +63,7 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
 .cuadro{
     padding: 50px 10px 10px;
     width: 960px;
-    height: 960px;
+    
     margin-right: auto;
     margin-left: auto;
 }
@@ -66,11 +72,20 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
     height: 100px;
 }
 .generalidades, .descripcion, .imagenes {
-    padding: 50px 10px 10px;
+    padding: 1em;
     width: 960px;
     margin-right: auto;
     margin-left: auto;
+    position: absolute;
+
+
 }
+.panels {
+    padding: 1em;
+    position: relative;
+    z-index: 10;
+}
+
 .images_cont{
     display: inline-block;
     width: 300px;
