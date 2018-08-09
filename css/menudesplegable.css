@@ -23,7 +23,7 @@
 .nav > li {
     float:left;
 }
-.tabs-item{
+.tabs_item{
    cursor: pointer;
     }
 
@@ -34,7 +34,7 @@
     padding:10px 12px;
     display:block;
 }
-.tabs-item active{
+.tabs_item active {
     background: #fff;
     color: #000;
     }
@@ -57,11 +57,11 @@
     right:-140px;
     top:0px;
 }
-.panels-item{
+.panels_item {
     position: absolute;
     left: -5000px;
     }
-.panels-item active{
+.panels_item active {
     position: relative;
     left: 0;
     }
