@@ -9,5 +9,5 @@
      panels.map(panel => panel.ClassList.remove('active'));
      panels[i].ClassList.add('active');
      }
-   }
-}(document));
+   });
+}(document);
