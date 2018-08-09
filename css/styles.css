@@ -16,6 +16,7 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
     padding: 1em;
     position: relative;
     z-index: 10;
+    width: 960px;
     }
 
 
@@ -66,6 +67,7 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
     padding: 1em;
     position: relative;
     z-index: 10;
+    width: 960px;
 }
 
 .images_cont{
