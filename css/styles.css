@@ -4,21 +4,147 @@
 }
 
 body {
-    background-image: url(../image/fondo.jpg);
+    /* background-image: url(../image/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background: rgb(212,239,240); */
+    background: linear-gradient(138deg, rgba(212, 239, 240, 1) 0%, rgba(82, 228, 185, 1) 23%, rgba(42, 233, 15, 1) 57%, rgba(26, 158, 208, 1) 100%);
+    font-family: sans-serif;
 }
 
-.container {
-    width: 960px;
-    margin-right: auto;
+.raiz {
+    background: url(../image/raiz.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 25rem;
+    width: 900px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.tallo {
+    background: url(../image/tallo.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 25rem;
+    width: 900px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.hoj {
     margin-left: auto;
+    margin-right: auto;
+    width: 650px;
 }
 
-.col-1 {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+.hojas {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+.hojas img {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.flor {
+    background: url(../image/flor.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 25rem;
+    width: 900px;
+    height: 300px;
+    font-size: 16px;
+}
+
+.fruto {
+    background: url(../image/fruto.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 25rem;
+    width: 900px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.familia {
+    background: url(../image/image2.png) no-repeat center left /300px;
+    padding: 0.4rem 1.5rem 1.5rem 25rem;
+    width: 900px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.ubi {
+    background: url(../image/image1.png) no-repeat center left /300px;
+    padding: 0.4rem 0.4rem 1.5rem 25rem;
+    width: 900px;
+    height: 300px;
+    font-size: 20px;
+}
+
+.alt {
+    text-align: right;
+}
+
+.taxo {
+    font-size: 14px;
+}
+
+.taxo h2 {
+    display: inline;
+}
+
+.enfasis {
+    font-style: oblique;
+}
+
+.maps1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    font-size: 12px;
+}
+
+.images_cont {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+.img1 {
+    background: url(../image/image1.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+
+.img2 {
+    background: url(../image/image2.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+
+.img3 {
+    background: url(../image/image3.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+
+.img4 {
+    background: url(../image/image4.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+
+.img5 {
+    background: url(../image/image5.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+
+.img6 {
+    background: url(../image/image6.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+
+.img7 {
+    background: url(../image/image7.png) no-repeat center left /300px;
+    padding: 0.4rem;
+}
+
+.img8 {
+    background: url(../image/image8.png) no-repeat center left /300px;
+    padding: 0.4rem;
 }
 
 .cont_image {
@@ -28,17 +154,19 @@ body {
     display: inline-block;
 }
 
-.indice {
-    display: inline-block;
-}
-
-.descripcion {
+.txt_title {
+    text-align: left;
+    background: url(../image/Euphorbia_Graminea.png) no-repeat center right /400px;
+    padding: 0 1.5rem 1.5rem 1.5rem;
     width: 100%;
+    height: 400px;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .image {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 25px;
 }
 
@@ -53,10 +181,12 @@ body {
     font-size: 20px;
 }
 
-.informacion, .yasuni, .caracteristicas, .biologia, .referencias {
-    width: 960px;
-    margin-right: auto;
-    margin-left: auto;
+.title-2 {
+    color: red;
+}
+
+.title-3 {
+    color: yellow;
 }
 
 .inicio {
@@ -65,35 +195,30 @@ body {
     color: brown;
 }
 
-a:hover {
-    color: white;
-}
-
 .ilustracion {
-    width: 800px;
-    height: 700px;
+    width: 300px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .ilust_contain {
+    width: 400px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.referencias .ext_link {
+.ext_link {
     background: url(../image/external_link.png) no-repeat center right /var(--size_image2);
     padding: 0.4rem 1.5rem 0.4rem 0.4rem;
 }
 
-.referencias .pdf {
+.pdf {
     background: url(../image/icopdf.png) no-repeat center right /var(--size_image2);
     padding: 0.4rem 1.5rem 0.4rem 0.4rem;
 }
 
-.copy {
-    text-align: center;
-    color: rgb(240, 21, 13);
-    font-size: 14px;
-    font-weight: bold;
+a:hover {
+    color: azure;
 }

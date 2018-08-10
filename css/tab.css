@@ -23,8 +23,9 @@
 }
 
 .tabs .active {
-    background: #fff;
-    color: #ccc;
+    background: rgba(42,233,15,1);
+    color: rgba(5,5,150,1);
+    font-weight: bold;
     z-index: 20;
 }
 
@@ -61,7 +62,7 @@ footer {
 
 .tabs-item1, .tabs-item2 {
     border-bottom: none;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(15, 204, 195);
     line-height: 2;
     padding: 0 1em;
     margin-right: 1px;
@@ -72,13 +73,14 @@ footer {
 }
 
 .tabs1 .active, .tabs2 .active {
-    background: #fff;
-    color: #ccc;
+    background: rgba(42,233,15,1);
+    color: rgb(187, 15, 9);
+    font-weight: bold;
     z-index: 20;
 }
 
 .panels1, .panels2 {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(15, 204, 195);
     padding: 1em;
     position: relative;
     z-index: 10;
