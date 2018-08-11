@@ -1,29 +1,33 @@
 :root {
     --size_image: 1.8rem;
     --size_image2: 1.2rem;
+    --size-borde: 5px;
 }
 
 body {
-    /* background-image: url(../image/fondo.jpg);
+    background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background: rgb(212,239,240); */
-    background: linear-gradient(138deg, rgba(212, 239, 240, 1) 0%, rgba(82, 228, 185, 1) 23%, rgba(42, 233, 15, 1) 57%, rgba(26, 158, 208, 1) 100%);
+    /* background: linear-gradient(138deg, rgba(212, 239, 240, 1) 0%, rgba(82, 228, 185, 1) 23%, rgba(42, 233, 15, 1) 57%, rgba(26, 158, 208, 1) 100%); */
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 .raiz {
     background: url(../image/raiz.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 900px;
+    padding: 3rem 1.5rem 1.5rem 25rem;
+    width: 880px;
     height: 300px;
     font-size: 20px;
+}
+.yasuni li{
+    font-weight: normal;
 }
 
 .tallo {
     background: url(../image/tallo.png) no-repeat center left /300px;
     padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 900px;
+    width: 880px;
     height: 300px;
     font-size: 20px;
 }
@@ -43,13 +47,12 @@ body {
 .hojas img {
     width: 300px;
     height: 300px;
-    border-radius: 25px;
 }
 
 .flor {
     background: url(../image/flor.png) no-repeat center left /300px;
     padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 900px;
+    width: 880px;
     height: 300px;
     font-size: 16px;
 }
@@ -57,7 +60,7 @@ body {
 .fruto {
     background: url(../image/fruto.png) no-repeat center left /300px;
     padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 900px;
+    width: 880px;
     height: 300px;
     font-size: 20px;
 }
@@ -65,15 +68,16 @@ body {
 .familia {
     background: url(../image/image2.png) no-repeat center left /300px;
     padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 900px;
+    width: 880px;
     height: 300px;
     font-size: 20px;
+    border-radius: var(--size-borde);
 }
 
 .ubi {
     background: url(../image/image1.png) no-repeat center left /300px;
     padding: 0.4rem 0.4rem 1.5rem 25rem;
-    width: 900px;
+    width: 880px;
     height: 300px;
     font-size: 20px;
 }
@@ -97,60 +101,68 @@ body {
 .maps1 {
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 320px;
     font-size: 12px;
 }
 
 .images_cont {
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
 }
 
 .img1 {
-    background: url(../image/image1.png) no-repeat center left /300px;
+    background: url(../image/image1.png) no-repeat center left /290px;
     padding: 0.4rem;
+    border-radius: var(--size-borde);
 }
 
 .img2 {
-    background: url(../image/image2.png) no-repeat center left /300px;
+    background: url(../image/image2.png) no-repeat center left /290px;
     padding: 0.4rem;
+    border-radius: var(--size-borde);
 }
 
 .img3 {
-    background: url(../image/image3.png) no-repeat center left /300px;
+    background: url(../image/image3.png) no-repeat center left /290px;
     padding: 0.4rem;
+    border-radius: var(--size-borde);
 }
 
 .img4 {
-    background: url(../image/image4.png) no-repeat center left /300px;
+    background: url(../image/image4.png) no-repeat center left /290px;
     padding: 0.4rem;
+    border-radius: var(--size-borde);
 }
 
 .img5 {
-    background: url(../image/image5.png) no-repeat center left /300px;
+    background: url(../image/image5.png) no-repeat center left /290px;
     padding: 0.4rem;
+    border-radius: var(--size-borde);
 }
 
 .img6 {
-    background: url(../image/image6.png) no-repeat center left /300px;
+    background: url(../image/image6.png) no-repeat center left /290px;
     padding: 0.4rem;
+    border-radius: var(--size-borde);
 }
 
 .img7 {
-    background: url(../image/image7.png) no-repeat center left /300px;
+    background: url(../image/image7.png) no-repeat center left /290px;
     padding: 0.4rem;
+    border-radius: var(--size-borde);
 }
 
 .img8 {
-    background: url(../image/image8.png) no-repeat center left /300px;
+    background: url(../image/image8.png) no-repeat center left /290px;
     padding: 0.4rem;
+    border-radius: var(--size-borde);
 }
 
 .cont_image {
     margin: 20px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 325px;
     display: inline-block;
 }
 
@@ -167,7 +179,7 @@ body {
 .image {
     width: 300px;
     height: 300px;
-    border-radius: 25px;
+    border-radius: var(--size-borde);
 }
 
 .title-central {
@@ -182,6 +194,7 @@ body {
 }
 
 .title-2 {
+    margin: 0 5px;
     color: red;
 }
 
@@ -194,19 +207,12 @@ body {
     font-size: 12px;
     color: brown;
 }
-
-.ilustracion {
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.ilust_contain {
-    width: 400px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+.cuadro{
+    text-align: center;
+    color: rgb(155, 41, 20);
+    background-color: rgb(9, 145, 199);
+    font-weight: bold;
+    border-radius: var(--size-borde);
 }
 
 .ext_link {
