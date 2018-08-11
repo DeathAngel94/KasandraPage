@@ -37,6 +37,7 @@
     position: relative;
     z-index: 10;
     height: 530px;
+    color: #fff;
 }
 
 .panels-item {
