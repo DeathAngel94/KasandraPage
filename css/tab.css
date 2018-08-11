@@ -25,8 +25,8 @@
 }
 
 .tabs .active {
-    background: rgba(42,233,15,1);
-    color: rgba(5,5,150,1);
+    background: rgba(42, 233, 15, 1);
+    color: rgba(5, 5, 150, 1);
     font-weight: bold;
     z-index: 20;
 }
@@ -48,6 +48,7 @@
     position: relative;
     left: 0;
 }
+
 footer {
     height: 20px;
     padding: 0;
@@ -60,6 +61,7 @@ footer {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 .tabs1, .tabs2 {
     margin: 0;
     padding: 0;
@@ -79,7 +81,7 @@ footer {
 }
 
 .tabs1 .active, .tabs2 .active {
-    background: rgba(42,233,15,1);
+    background: rgba(42, 233, 15, 1);
     color: rgb(187, 15, 9);
     font-weight: bold;
     z-index: 20;
@@ -101,4 +103,49 @@ footer {
 .panels1 .active, .panels2 .active {
     position: relative;
     left: 0;
+}
+
+/* -- efecto en el scroll --*/
+
+/* ::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(63, 27, 221);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-button {
+    background-color: rgb(12, 94, 133);
+    background: url();
+}
+::-webkit-scrollbar-corner {
+    background-color: #000000;
+} */
+
+::-webkit-scrollbar {
+    width: 10px;
+    /*=> ancho del scroll*/
+    background-color: #cecece;
+    /*=> Color del fondo principal */
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.3);
+    /*=> color de fondo del trayecto del scroll */
+    box-shadow: inset 0 0px 10px rgba(0, 0, 0, 0.38);
+    /*=> sombra */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ababab;
+    /*=> color del indicador del scroll */
+    border-radius: 10px;
+    /*=> bordes redondeados */
+    box-shadow: inset 0 2px 15px rgb(255, 255, 255);
+    /*=> sombra */
 }
