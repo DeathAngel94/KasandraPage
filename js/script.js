@@ -1,16 +1,3 @@
-/* (function(d){
- let tabs = Array.prototype.slice.apply(d.querySelectorAll('.tabs-item'));
- let panels = Array.prototype.slice.apply(d.querySelectorAll('.panels-item'));
-  d.getElementById("tabs").addEventListener('Click', e => {
-   if(e.target.ClassList.contains('tabs-item')){
-     let i = tabs.indexOf(e.target);
-     tabs.map(tab => tab.ClassList.remove('active'));
-     tabs[i].ClassList.add('active');
-     panels.map(panel => panel.ClassList.remove('active'));
-     panels[i].ClassList.add('active');
-     }
-   });
-}(document)); */
 (function (d) {
   let tabs = Array.prototype.slice.apply(document.querySelectorAll(".tabs-item"));
   let panels = Array.prototype.slice.apply(document.querySelectorAll(".panels-item"));
