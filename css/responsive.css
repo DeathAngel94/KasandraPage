@@ -1,9 +1,9 @@
 :root{
-    --body-size-width: 1024px;
-    --body-size-height: 720px;
+    --body-size-width: 1280px;
+    --body-size-height: 960px;
     --footer-size-height: 20px;
     --panels-size-height: 90%;
-    --panelsx-size-height: 516px;
+    --panelsx-size-height: 710px;
 }
 body {
     width: var(--body-size-width);
