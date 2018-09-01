@@ -14,7 +14,7 @@ body {
 }
 
 .raiz {
-    background: url(../image/raiz.png) no-repeat center left /300px;
+    background: url(../image/raiz.png) no-repeat center left /400px;
     padding: 3rem 1.5rem 1.5rem 25rem;
     width: 880px;
     height: 300px;
@@ -106,57 +106,16 @@ body {
 }
 
 .images_cont {
-    display: inline-block;
-    width: 290px;
-    height: 290px;
+    display: grid;
+    /* width: 290px;
+    height: 290px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
 }
 
-.img1 {
-    background: url(../image/image1.png) no-repeat center left /290px;
-    padding: 0.4rem;
+.img img {
     border-radius: var(--size-borde);
-}
-
-.img2 {
-    background: url(../image/image2.png) no-repeat center left /290px;
-    padding: 0.4rem;
-    border-radius: var(--size-borde);
-}
-
-.img3 {
-    background: url(../image/image3.png) no-repeat center left /290px;
-    padding: 0.4rem;
-    border-radius: var(--size-borde);
-}
-
-.img4 {
-    background: url(../image/image4.png) no-repeat center left /290px;
-    padding: 0.4rem;
-    border-radius: var(--size-borde);
-}
-
-.img5 {
-    background: url(../image/image5.png) no-repeat center left /290px;
-    padding: 0.4rem;
-    border-radius: var(--size-borde);
-}
-
-.img6 {
-    background: url(../image/image6.png) no-repeat center left /290px;
-    padding: 0.4rem;
-    border-radius: var(--size-borde);
-}
-
-.img7 {
-    background: url(../image/image7.png) no-repeat center left /290px;
-    padding: 0.4rem;
-    border-radius: var(--size-borde);
-}
-
-.img8 {
-    background: url(../image/image8.png) no-repeat center left /290px;
-    padding: 0.4rem;
-    border-radius: var(--size-borde);
+    width: 100%;
 }
 
 .cont_image {
@@ -194,12 +153,7 @@ body {
 }
 
 .title-2 {
-    margin: 0 5px;
     color: red;
-}
-
-.title-3 {
-    color: yellow;
 }
 
 .inicio {

@@ -1,0 +1,23 @@
+:root{
+    --body-size-width: 1024px;
+    --body-size-height: 720px;
+    --footer-size-height: 20px;
+    --panels-size-height: 90%;
+    --panelsx-size-height: 516px;
+}
+body {
+    width: var(--body-size-width);
+    height: var(--body-size-height);
+}
+
+footer {
+    height: var(--footer-size-height);
+}
+
+.panels {
+    height: var(--panels-size-height);
+}
+
+.panels1, .panels2 {
+    height: var(--panelsx-size-height);
+}
