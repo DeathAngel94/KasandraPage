@@ -286,8 +286,10 @@ footer {
         --image-size-height: 350px;
         --image2-size-height: 350px;
         --image2-size-width: 350px;
-        --img-size-width: 50%;
-        --img-size-heigth: 50%;
+        --maps1-size-width: 60%;
+        --maps1-font-size: 12px;
+        --cont_image-size-heigth: 100%;
+        --cont_image-display: inline-block;
         --txt_title-font-size: 28px;
         --taxo-font-size: 28px;
         --taxop-font-size: 30px;
