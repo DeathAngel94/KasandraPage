@@ -1,8 +1,8 @@
 .tabs-container {
     position: relative;
-    width: 80%;
-    height: 90%;
-    margin: 2em auto;
+    width: 90%;
+    height: 100%;
+    margin: 0.5em auto;
 }
 
 .tabs {
@@ -10,15 +10,16 @@
     margin-bottom: 0;
     padding-left: 0;
     display: flex;
+    font-weight: bold;
 }
 
 .tabs-item {
     border: 1px solid #ccc;
     border-bottom: none;
     line-height: 2.5;
-    padding: 0 1em;
+    padding: 0 0.5em;
     margin-right: 1px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 10% 10% 0 0;
     position: relative;
     top: 1px;
     z-index: 0;
@@ -56,22 +57,23 @@ footer {
     position: absolute;
     bottom: 0;
     color: rgb(207, 163, 18);
-    font-weight: bold;
-    margin-bottom: 5px;    
-    width: 100%;
+    font-weight: bold;   
+    width: 90%;
+    margin: 0 auto;
 }
 
 .tabs1, .tabs2 {
     margin: 0;
     padding: 0;
     display: flex;
+    font-weight: bold;
 }
 
 .tabs-item1, .tabs-item2 {
     border: 1px solid rgb(15, 204, 195);
     border-bottom: none;
-    line-height: 2;
-    padding: 0 1em;
+    line-height: 2.5;
+    padding: 0 0.5em;
     margin-right: 1px;
     border-radius: 5px 5px 0 0;
     cursor: pointer;
@@ -96,7 +98,7 @@ footer {
 
 .panels-item1, .panels-item2 {
     position: absolute;
-    left: -5000px;
+    left: -7000px;
 }
 
 .panels1 .active, .panels2 .active {

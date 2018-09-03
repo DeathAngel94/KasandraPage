@@ -13,104 +13,39 @@ body {
     overflow: hidden;
 }
 
-.raiz {
-    background: url(../image/raiz.png) no-repeat center left /400px;
-    padding: 3rem 1.5rem 1.5rem 25rem;
-    width: 880px;
-    height: 300px;
-    font-size: 20px;
-}
-.yasuni li{
-    font-weight: normal;
+a:hover {
+    color: azure;
 }
 
-.tallo {
-    background: url(../image/tallo.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 880px;
-    height: 300px;
-    font-size: 20px;
-}
-
-.hoj {
-    margin-left: auto;
-    margin-right: auto;
-    width: 650px;
-}
-
-.hojas {
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-}
-
-.hojas img {
-    width: 300px;
-    height: 300px;
-}
-
-.flor {
-    background: url(../image/flor.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 880px;
-    height: 300px;
-    font-size: 16px;
-}
-
-.fruto {
-    background: url(../image/fruto.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 880px;
-    height: 300px;
-    font-size: 20px;
-}
-
-.familia {
-    background: url(../image/image2.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 25rem;
-    width: 880px;
-    height: 300px;
-    font-size: 20px;
-    border-radius: var(--size-borde);
-}
-
-.ubi {
-    background: url(../image/image1.png) no-repeat center left /300px;
-    padding: 0.4rem 0.4rem 1.5rem 25rem;
-    width: 880px;
-    height: 300px;
-    font-size: 20px;
+.familia, .ubi, .raiz, .tallo, .hojas, .flor, .fruto {
+    font-weight: bold;
+    text-overflow: ellipsis;
 }
 
 .alt {
     text-align: right;
 }
 
-.taxo {
-    font-size: 14px;
-}
-
 .taxo h2 {
     display: inline;
+}
+
+.yasuni li {
+    color: rgb(207, 163, 18);
+    font-weight: bold;
+}
+
+.yasuni li p {
+    color: #ffffff;
+    font-weight: normal;
 }
 
 .enfasis {
     font-style: oblique;
 }
 
-.maps1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 320px;
-    font-size: 12px;
-}
-
 .images_cont {
     display: grid;
-    /* width: 290px;
-    height: 290px; */
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1.5rem;
 }
 
 .img img {
@@ -118,27 +53,9 @@ body {
     width: 100%;
 }
 
-.cont_image {
-    margin: 20px;
-    width: 300px;
-    height: 325px;
-    display: inline-block;
-}
-
 .txt_title {
-    text-align: left;
-    background: url(../image/Euphorbia_Graminea.png) no-repeat center right /400px;
-    padding: 0 1.5rem 1.5rem 1.5rem;
-    width: 100%;
-    height: 400px;
     font-weight: bold;
-    font-size: 24px;
-}
-
-.image {
-    width: 300px;
-    height: 300px;
-    border-radius: var(--size-borde);
+    text-overflow: ellipsis;
 }
 
 .title-central {
@@ -149,25 +66,29 @@ body {
 
 .title-1 {
     text-align: center;
-    font-size: 20px;
 }
 
 .title-2 {
+    font-weight: bold;
     text-align: center;
     color: red;
 }
 
-.inicio {
-    text-align: center;
-    font-size: 12px;
-    color: brown;
-}
-.cuadro{
+.cuadro {
     text-align: center;
     color: rgb(155, 41, 20);
     background-color: rgb(9, 145, 199);
     font-weight: bold;
     border-radius: var(--size-borde);
+}
+
+.citas {
+    color: rgb(207, 163, 18);
+}
+
+.citas p {
+    color: #ffffff;
+    font-weight: normal;
 }
 
 .ext_link {
@@ -180,6 +101,7 @@ body {
     padding: 0.4rem 1.5rem 0.4rem 0.4rem;
 }
 
-a:hover {
-    color: azure;
+.hojas img {
+    width: 100%;
+    height: 100%;
 }

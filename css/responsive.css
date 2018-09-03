@@ -1,23 +1,320 @@
-:root{
-    --body-size-width: 1280px;
-    --body-size-height: 960px;
+:root {
+    --body-size-width: 90%;
+    --body-size-height: 100%;
+    --panels-size-height: 85%;
+    --panels-size-width: 100%;
+    --panelsx-size-height: 70vh;
+    --panelsx-size-width: 100%;
+    --tabs-font-size: 8px;
+    --tabs1-font-size: 8px;
+    --tabs2-font-size: 10px;
+    --title-font-size: 18px;
+    --title1-font-size: 16px;
+    --image-size-width: 200px;
+    --image-size-height: 200px;
+    --image-padding: 1em 0;
+    --txt_title-font-size: 20px;
+    --image-grid-colums: repeat(1, 1fr);
+    --image-grid-gap: 1rem;
+    --citas-size-width: 90%;
+    --citas-font-size: 12px;
+    --taxo-font-size: 14px;
+    --taxop-font-size: 14px;
+    --image2-size-width: 180px;
+    --image2-size-height: 180px;
+    --image2-padding: 0;
+    --maps1-size-width: 90%;
+    --maps1-font-size: 8px;
+    --ubi-font-size: 12px;
+    --cont_image-size-width: 90%;
+    --cont_image-size-heigth: 100%;
+    --cont_image-margin: 10px;
+    --cont_image-display: block;
+    --img-size-width: 100%;
+    --img-size-heigth: 100%;
+    --hojas-grid-colums: repeat(1, 1fr);
+    --hojas-grid-gap: 1rem;
+    --des_image-size-width: 180px;
+    --des_image-size-height: 180px;
+    --des_image-padding: 0;
+    --description-size-font: 18px;
+    --flor-font-size: 16px;
+    --footer-font-size: 8px;
     --footer-size-height: 20px;
-    --panels-size-height: 90%;
-    --panelsx-size-height: 710px;
 }
+
 body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
     width: var(--body-size-width);
     height: var(--body-size-height);
 }
 
-footer {
-    height: var(--footer-size-height);
-}
-
 .panels {
     height: var(--panels-size-height);
+    width: var(--panels-size-width);
 }
 
 .panels1, .panels2 {
     height: var(--panelsx-size-height);
+    width: var(--panelsx-size-width);
 }
+
+.tabs {
+    font-size: var(--tabs-font-size);
+}
+
+.tabs1 {
+    font-size: var(--tabs1-font-size);
+}
+
+.tabs2 {
+    font-size: var(--tabs2-font-size);
+}
+
+.title-central {
+    font-size: var(--title-font-size);
+}
+
+.title-1 {
+    font-size: var(--title1-font-size);
+}
+
+.title-2 {
+    font-size: var(--title1-font-size);
+}
+
+.inicio {
+    width: var(--image-size-width);
+    height: var(--image-size-height);
+    padding: var(--image-padding);
+    margin: 0 auto;
+}
+
+.inicio img {
+    width: var(--image-size-width);
+    height: var(--image-size-height);
+}
+
+.txt_title {
+    font-size: var(--txt_title-font-size);
+}
+
+.images_cont {
+    grid-template-columns: var(--image-grid-colums);
+    grid-gap: var(--image-grid-gap);
+}
+
+.taxo {
+    display: table;
+    margin: 0 auto;
+    font-size: var(--taxo-font-size);
+}
+
+.taxo-p {
+    text-align: center;
+    font-size: var(--taxop-font-size);
+}
+
+.taxo h2 {
+    font-size: var(--taxo-font-size);
+}
+
+.inicio2 {
+    width: var(--image2-size-width);
+    height: var(--image2-size-height);
+    padding: var(--image2-padding);
+    margin: 0 auto;
+}
+
+.inicio2 img {
+    width: var(--image2-size-width);
+    height: var(--image2-size-height);
+}
+
+.familia, .taxo, .ubi {
+    font-size: var(--ubi-font-size);
+}
+
+.maps1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--maps1-size-width);
+    font-size: var(--maps1-font-size);
+}
+
+.cont_image {
+    margin: var(--cont_image-margin);
+    width: var(--cont_image-size-width);
+    height: var(--cont_image-size-heigth);
+    display: var(--cont_image-display);
+}
+
+.cont_image img {
+    width: var(--img-size-width);
+    height: var(--img-size-heigth);
+}
+
+.yasuni {
+    font-size: var(--ubi-font-size);
+}
+
+.citas {
+    width: var(--citas-size-width);
+    margin: 0 auto;
+    font-size: var(--citas-font-size);
+}
+
+.des_image {
+    width: var(--des_image-size-width);
+    height: var(--des_image-size-height);
+    padding: var(--des_image-padding);
+    margin: 0 auto;
+}
+
+.des_image img {
+    width: var(--des_image-size-width);
+    height: var(--des_image-size-height);
+}
+
+.raiz {
+    font-size: var(--description-size-font);
+}
+
+.tallo {
+    font-size: var(--description-size-font);
+}
+
+.hoj {
+    display: grid;
+    grid-template-columns: var(--hojas-grid-colums);
+    grid-gap: var(--hojas-grid-gap);
+}
+
+.hoj img {
+    width: 100%;
+}
+
+.hojas {
+    font-size: var(--description-size-font);
+}
+
+.flor {
+    font-size: var(--flor-font-size);
+}
+
+.fruto {
+    font-size: var(--description-size-font);
+}
+
+footer {
+    height: var(--footer-size-height);
+    font-size: var(--footer-font-size);
+}
+
+/* -- MEDIA QUERYS -- */
+
+/*NORMALES
+ Móviles en vertical
+   ------------------------------------------------------------------------- */
+
+@media (min-width: 410px) {
+    :root {
+        --panels-size-height: 90%;
+        --panelsx-size-height: 82vh;
+        --image-size-width: 230px;
+        --image-size-height: 230px;
+        --image2-size-height: 230px;
+        --image2-size-width: 230px;
+        --txt_title-font-size: 22px;
+        --taxo-font-size: 18px;
+        --taxop-font-size: 20px;
+        --maps1-font-size: 10px;
+        --ubi-font-size: 18px;
+        --title1-font-size: 18px;
+        --tabs-font-size: 9px;
+        --tabs1-font-size: 8px;
+        --tabs2-font-size: 12px;
+        --des_image-size-width: 230px;
+        --des_image-size-height: 230px;
+        --citas-font-size: 13px;
+    }
+}
+
+/* Móviles en horizontal o tablets en vertical
+    768 x 1024
+   ------------------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+    :root {
+        --panelsx-size-height: 80vh;
+        --image-size-width: 350px;
+        --image-size-height: 350px;
+        --image2-size-height: 350px;
+        --image2-size-width: 350px;
+        --txt_title-font-size: 28px;
+        --taxo-font-size: 28px;
+        --taxop-font-size: 30px;
+        --maps1-font-size: 10px;
+        --ubi-font-size: 26px;
+        --title1-font-size: 24px;
+        --tabs-font-size: 14px;
+        --tabs1-font-size: 14px;
+        --tabs2-font-size: 14px;
+        --des_image-size-width: 350px;
+        --des_image-size-height: 350px;
+        --citas-font-size: 20px;
+        --hojas-grid-colums: repeat(2, 1fr);
+        --description-size-font: 24px;
+        --flor-font-size: 20px;
+        --footer-font-size: 12px;
+        --image-grid-colums: repeat(2, 1fr);
+    }
+}
+
+/* Tablets en horizonal y escritorios normales
+    1024 x 768
+  ------------------------------------------------------------------------- */
+
+@media (min-width: 1024px) {
+    :root {
+        --image-size-width: 350px;
+        --image-size-height: 350px;
+        --image2-size-height: 350px;
+        --image2-size-width: 350px;
+        --img-size-width: 50%;
+        --img-size-heigth: 50%;
+        --txt_title-font-size: 28px;
+        --taxo-font-size: 28px;
+        --taxop-font-size: 30px;
+        --maps1-font-size: 10px;
+        --ubi-font-size: 26px;
+        --title1-font-size: 24px;
+        --tabs-font-size: 14px;
+        --tabs1-font-size: 14px;
+        --tabs2-font-size: 14px;
+        --des_image-size-width: 350px;
+        --des_image-size-height: 350px;
+        --citas-font-size: 20px;
+        --description-size-font: 24px;
+        --flor-font-size: 20px;
+        --footer-font-size: 12px;
+        --image-grid-colums: repeat(3, 1fr);
+    }
+}
+
+/* Escritorios muy anchos
+1200 x 800
+  ------------------------------------------------------------------------- */
+
+@media (min-width: 1200px) {}
+
+/* Otros
+1360 x 768//1366 x 768
+---------------------------------------------------------------------------*/
+
+@media (min-width: 1360px) {}
