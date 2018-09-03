@@ -355,7 +355,7 @@ footer {
 @media (min-width: 1360px) {
     :root {
         --panels-size-height: 87%;
-        --panelsx-size-height: 74vh;
+        --panelsx-size-height: 73vh;
         --maps1-size-width: 38%;
         --image-grid-colums: repeat(3, 1fr);
         --title-font-size: 30px;
