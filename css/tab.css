@@ -43,7 +43,7 @@
 
 .panels-item {
     position: absolute;
-    left: -5000px;
+    left: -15000px;
 }
 
 .panels .active {
@@ -90,7 +90,7 @@ footer {
 
 .panels1, .panels2 {
     border: 1px solid rgb(15, 204, 195);
-    padding: 0 1em;
+    padding: 1em;
     position: relative;
     z-index: 10;
     color: #fff;
@@ -98,7 +98,7 @@ footer {
 
 .panels-item1, .panels-item2 {
     position: absolute;
-    left: -7000px;
+    left: -15000px;
 }
 
 .panels1 .active, .panels2 .active {

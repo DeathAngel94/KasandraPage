@@ -98,6 +98,7 @@ body {
 .inicio img {
     width: var(--image-size-width);
     height: var(--image-size-height);
+    border-radius: 3%;
 }
 
 .txt_title {
@@ -134,6 +135,7 @@ body {
 .inicio2 img {
     width: var(--image2-size-width);
     height: var(--image2-size-height);
+    border-radius: 3%;
 }
 
 .familia, .taxo, .ubi {
@@ -179,6 +181,7 @@ body {
 .des_image img {
     width: var(--des_image-size-width);
     height: var(--des_image-size-height);
+    border-radius: 3%;
 }
 
 .raiz {
@@ -193,6 +196,7 @@ body {
     display: grid;
     grid-template-columns: var(--hojas-grid-colums);
     grid-gap: var(--hojas-grid-gap);
+    border-radius: 3%;
 }
 
 .hoj img {
@@ -256,6 +260,8 @@ footer {
         --image-size-height: 350px;
         --image2-size-height: 350px;
         --image2-size-width: 350px;
+        --title-font-size: 24px;
+        --title1-font-size: 20px;
         --txt_title-font-size: 28px;
         --taxo-font-size: 28px;
         --taxop-font-size: 30px;
@@ -282,30 +288,41 @@ footer {
 
 @media (min-width: 1024px) {
     :root {
-        --image-size-width: 350px;
-        --image-size-height: 350px;
-        --image2-size-height: 350px;
-        --image2-size-width: 350px;
+        --panels-size-height: 88%;
+        --panelsx-size-height: 76vh;
         --maps1-size-width: 40%;
-        --maps1-font-size: 12px;
+        --maps1-font-size: 14px;
         --cont_image-size-heigth: 100%;
         --cont_image-display: inline-block;
-        --txt_title-font-size: 28px;
-        --taxo-font-size: 28px;
-        --taxop-font-size: 30px;
-        --maps1-font-size: 10px;
-        --ubi-font-size: 26px;
-        --title1-font-size: 24px;
-        --tabs-font-size: 14px;
-        --tabs1-font-size: 14px;
-        --tabs2-font-size: 14px;
-        --des_image-size-width: 350px;
-        --des_image-size-height: 350px;
-        --citas-font-size: 20px;
-        --description-size-font: 24px;
-        --flor-font-size: 20px;
-        --footer-font-size: 12px;
+        --tabs-font-size: 18px;
+        --tabs1-font-size: 18px;
+        --tabs2-font-size: 20px;
+        --title-font-size: 28px;
+        --title1-font-size: 22px;
+        --txt_title-font-size: 30px;
+        --flor-font-size: 18px;
         --image-grid-colums: repeat(3, 1fr);
+    }
+    .inicio img {
+        margin-top: 1.5em;
+    }
+    .hoj img {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+    }
+    .columnas2 {
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    .inicio2 img {
+        margin-top: 1.5em;
+    }
+    .des_image img {
+        margin-top: 1.5em;
     }
 }
 
@@ -313,10 +330,49 @@ footer {
 1200 x 800
   ------------------------------------------------------------------------- */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    :root {
+        --panels-size-height: 87%;
+        --panelsx-size-height: 75vh;
+        --maps1-size-width: 50%;
+        --image-grid-colums: repeat(3, 1fr);
+        --title-font-size: 30px;
+        --title1-font-size: 24px;
+        --flor-font-size: 20px;
+        --footer-font-size: 14px;
+    }
+    .hoj img {
+        margin: 0 auto;
+        width: 350px;
+        height: 350px;
+    }
+}
 
 /* Otros
 1360 x 768//1366 x 768
 ---------------------------------------------------------------------------*/
 
-@media (min-width: 1360px) {}
+@media (min-width: 1360px) {
+    :root {
+        --panels-size-height: 87%;
+        --panelsx-size-height: 74vh;
+        --maps1-size-width: 38%;
+        --image-grid-colums: repeat(3, 1fr);
+        --title-font-size: 30px;
+        --title1-font-size: 24px;
+        --flor-font-size: 20px;
+        --footer-font-size: 15px;
+    }
+    .panels {
+        border: 2px solid #ccc;
+    }
+    .tabs-item {
+        border: 2px solid #ccc;
+    }
+    .panels1, .panels2 {
+        border: 2px solid rgb(15, 204, 195);
+    }
+    .tabs-item1, .tabs-item2 {
+        border: 2px solid rgb(15, 204, 195);
+    }
+}
