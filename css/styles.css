@@ -1,138 +1,61 @@
 :root {
     --size_image: 1.8rem;
     --size_image2: 1.2rem;
+    --size-borde: 5px;
 }
 
 body {
-    /* background-image: url(../image/fondo.jpg);*/
+    background-image: url(../image/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background: rgb(212,239,240);
-background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 23%, rgba(42,233,15,1) 57%, rgba(26,158,208,1) 100%);
-    
+    /* background: linear-gradient(138deg, rgba(212, 239, 240, 1) 0%, rgba(82, 228, 185, 1) 23%, rgba(42, 233, 15, 1) 57%, rgba(26, 158, 208, 1) 100%); */
+    font-family: sans-serif;
+    overflow: hidden;
 }
 
-.container {
-    padding: 1em;
-    position: relative;
-    z-index: 10;
-    width: 960px;
-    }
-
-
-.raiz{
-    background: url(../image/raiz.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 30rem;
-    width: 960px;
-    height: 240px;
-    font-size: 20px;
-}
-.tallo{
-    background: url(../image/tallo.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 30rem;
-    width: 960px;
-    height: 240px;
-    font-size: 20px;
-}
-.hojas{
-    background: url(../image/hoja.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 30rem;
-    width: 960px;
-    height: 240px;
-    font-size: 20px;
-}
-.flor{
-    background: url(../image/flor.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 30rem;
-    width: 960px;
-    height: 240px;
-    font-size: 20px;
-}
-.fruto{
-    background: url(../image/fruto.png) no-repeat center left /300px;
-    padding: 0.4rem 1.5rem 1.5rem 30rem;
-    width: 960px;
-    height: 240px;
-    font-size: 20px;
-}
-.cuadro{
-    padding: 50px 10px 10px;
-    width: 960px;
-    
-    margin-right: auto;
-    margin-left: auto;
+a:hover {
+    color: azure;
 }
 
-.panels {
-    padding: 1em;
-    position: relative;
-    z-index: 10;
-    width: 960px;
-}
-
-.images_cont{
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-}
-.img1{
-    background: url(../image/image1.png) no-repeat center left /300px;
-    padding: 0.4rem;
-}
-.img2{
-    background: url(../image/image2.png) no-repeat center left /300px;
-    padding: 0.4rem;
-}
-.img3{
-    background: url(../image/image3.png) no-repeat center left /300px;
-    padding: 0.4rem;
-}
-.img4{
-    background: url(../image/image4.png) no-repeat center left /300px;
-    padding: 0.4rem;
-}
-.img5{
-    background: url(../image/image5.png) no-repeat center left /300px;
-    padding: 0.4rem;
-}
-.img6{
-    background: url(../image/image6.png) no-repeat center left /300px;
-    padding: 0.4rem;
-}
-.img7{
-    background: url(../image/image7.png) no-repeat center left /300px;
-    padding: 0.4rem;
-}
-.img8{
-    background: url(../image/image8.png) no-repeat center left /300px;
-    padding: 0.4rem;
-}
-
-.cont_image {
-    margin: 20px;
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-} 
-
-.txt_title{
-    text-align: right;
-    background: url(../image/Euphorbia_Graminea.png) no-repeat center left /400px;
-    padding: 0.4rem 1.5rem 0.4rem 0.4rem;
-    width: 100%;
-    height: 400px;
+.familia, .ubi, .raiz, .tallo, .hojas, .flor, .fruto {
     font-weight: bold;
-    font-size: 20px;
+    text-overflow: ellipsis;
 }
 
-.indice {
-    display: inline-block;
+.alt {
+    text-align: right;
 }
 
-.image {
-    width: 400px;
-    height: 400px;
-    border-radius: 25px;
+.taxo h2 {
+    display: inline;
+}
+
+.yasuni li {
+    color: rgb(207, 163, 18);
+    font-weight: bold;
+}
+
+.yasuni li p {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.enfasis {
+    font-style: oblique;
+}
+
+.images_cont {
+    display: grid;
+}
+
+.img img {
+    border-radius: var(--size-borde);
+    width: 100%;
+}
+
+.txt_title {
+    font-weight: bold;
+    text-overflow: ellipsis;
 }
 
 .title-central {
@@ -143,54 +66,42 @@ background: linear-gradient(138deg, rgba(212,239,240,1) 0%, rgba(82,228,185,1) 2
 
 .title-1 {
     text-align: center;
-    font-size: 20px;
 }
-.title-2{
+
+.title-2 {
+    font-weight: bold;
+    text-align: center;
     color: red;
 }
 
-.title-3{
-    color: yellow;
-}
-
-
-
-.inicio {
+.cuadro {
     text-align: center;
-    font-size: 12px;
-    color: brown;
+    color: rgb(155, 41, 20);
+    background-color: rgb(9, 145, 199);
+    font-weight: bold;
+    border-radius: var(--size-borde);
 }
 
-.ilustracion {
-    width: 400px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+.citas {
+    color: rgb(207, 163, 18);
 }
 
-.ilust_contain {
-    width: 400px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+.citas p {
+    color: #ffffff;
+    font-weight: normal;
 }
 
-.referencias .ext_link {
+.ext_link {
     background: url(../image/external_link.png) no-repeat center right /var(--size_image2);
     padding: 0.4rem 1.5rem 0.4rem 0.4rem;
 }
 
-.referencias .pdf {
+.pdf {
     background: url(../image/icopdf.png) no-repeat center right /var(--size_image2);
     padding: 0.4rem 1.5rem 0.4rem 0.4rem;
 }
 
-.copy {
-    text-align: center;
-    color: rgb(240, 21, 13);
-    font-size: 14px;
-    font-weight: bold;
-}
-a:hover{
-    color: azure;
+.hojas img {
+    width: 100%;
+    height: 100%;
 }
